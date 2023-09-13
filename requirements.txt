@@ -16,3 +16,4 @@ numpy==1.25.2
 seaborn==0.12.2
 matplotlib==3.7.3
 polars==0.19.2
+ydata-profiling
