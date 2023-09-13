@@ -3,14 +3,13 @@
 import polars as pl
 import seaborn as sns
 import matplotlib.pyplot as plt
+from ydata_profiling import ProfileReport
 
 df_pl = pl.read_csv("cereal.csv")
 
 def summary():
     """EDA with Polars describe function to get mean, median, and standard deviation"""
-    outcome = df_pl.describe()
-    summary_html = outcome.to_html("summary_statistics.html")
-    return outcome, summary_html
+    return df_pl.describe()
 
 def histogram():
     """Displays histogram with seaborn and matplotlib"""
@@ -18,3 +17,8 @@ def histogram():
     plt.title("Calories of Cereals (n=77)")
     plt.show()
     plt.savefig("Calories_of_Cereals.png")
+    return pdf_report_generator(df_pl)
+
+def pdf_report_generator(df):
+    profile = ProfileReport(df, title="Summary Report")
+    profile.to_file("Summary_Report.html")
