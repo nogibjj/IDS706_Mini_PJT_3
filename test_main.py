@@ -3,6 +3,7 @@ Start Test
 """
 
 import main 
+import polars as pl 
 
 df_pl = pl.read_csv("cereal.csv")
 pandas_df1 = df_pl.to_pandas()
