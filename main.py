@@ -12,7 +12,7 @@ def summary():
 
 def histogram():
     """Displays histogram with plotly.express library"""
-    sns.histplot(data=df_pl, x="calories")
+    sns.histplot(data=df_pl, x="calories", kde=False)
     plt.title('Calories of Cereals (n=77)')
     plt.show()
     plt.savefig("Calories_of_Cereals.png")
