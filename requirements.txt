@@ -12,3 +12,7 @@ uvicorn==0.18.3
 
 #add pandas
 pandas==2.1.0
+numpy==1.25.2
+seaborn==0.12.2
+matplotlib==3.7.3
+polars==0.19.2
