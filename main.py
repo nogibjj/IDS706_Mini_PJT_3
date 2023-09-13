@@ -1,5 +1,18 @@
-def add(a, b):
-    return a + b
+"""Start mainfunction"""
 
-if __name__ == "__main__":
-    print(add(1, 3))
+import polars as pl 
+import seaborn as sns
+import matplotlib.pyplot as plt 
+
+df_pl = pl.read_csv("cereal.csv")
+
+def summary():
+    """EDA with Polars describe function to get mean, median, and standard deviation"""
+    print(df_pl.describe())
+
+def histogram():
+    """Displays histogram with plotly.express library"""
+    sns.histplot(data=df_pl, x="calories")
+    plt.title('Calories of Cereals (n=77)')
+    plt.show()
+    plt.savefig("Calories_of_Cereals.png")

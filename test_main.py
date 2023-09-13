@@ -1,4 +1,21 @@
-import main
+"""
+Start Test
+"""
 
-def test_add():
-    assert main.add(1, 3) == 4
+from main import summary
+from main import histogram
+
+def test_summary():
+    """Test defined summary (or describe) function"""
+    return summary()
+
+def test_histogram():
+    """
+    Test defined seeplot function to checkout a scatter plot
+    """
+    return histogram()
+
+if __name__ == "__main__":
+    test_summary()
+    test_histogram()
+    
