@@ -9,10 +9,11 @@ df_pl = pl.read_csv("cereal.csv")
 pandas_df1 = df_pl.to_pandas()
 
 def test_summary():
+    new = summary()
     """Test defined summary (or describe) function"""
-    assert pandas_df1["calories"]["mean"] == 106.88311688311688
-    assert pandas_df1["protein"]["max"] == 6.0
-    assert pandas_df1["fat"]["min"] == 0
+    assert new["calories"]["mean"] == 106.88311688311688
+    assert new["protein"]["max"] == 6.0
+    assert new["fat"]["min"] == 0
 
 def test_histogram():
     """
