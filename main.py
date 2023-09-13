@@ -1,9 +1,9 @@
-"""Start mainfunction"""
+"""Start main function"""
 
 import polars as pl
 import seaborn as sns
 import matplotlib.pyplot as plt
-from ydata_profiling import ProfileReport
+#from ydata_profiling import ProfileReport
 
 df_pl = pl.read_csv("cereal.csv")
 
