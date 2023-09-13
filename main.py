@@ -19,10 +19,10 @@ def histogram():
     plt.title("Calories of Cereals (n=77)")
     plt.show()
     plt.savefig("Calories_of_Cereals.png")
-    print(df_pl)
-    pdf_report_generator(df_pl)
-    return df_pl
+    #print(df_pl)
+    #pdf_report_generator(df_pl)
+    #return df_pl
 
-def pdf_report_generator(df):
-    profile = ProfileReport(df, title="Summary Report")
-    profile.to_file("Summary_Report.html")
+#def pdf_report_generator(df):
+#    profile = ProfileReport(df, title="Summary Report")
+#    profile.to_file("Summary_Report.html")
