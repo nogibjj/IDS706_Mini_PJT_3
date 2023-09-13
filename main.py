@@ -17,7 +17,7 @@ def pdf_report_generator(df):
     profile.to_file("Summary_Report.html")
 
 def histogram():
-    """Displays histogram with plotly.express library"""
+    """Displays histogram with seaborn and matplotlib"""
     sns.histplot(data=df_pl, x="calories", kde=False, bins=20)
     plt.title("Calories of Cereals (n=77)")
     plt.show()
