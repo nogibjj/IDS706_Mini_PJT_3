@@ -1,12 +1,13 @@
 """Start main function"""
 
+import pandas as pd 
 import polars as pl
 import seaborn as sns
 import matplotlib.pyplot as plt
 from ydata_profiling import ProfileReport
 
 df_pl = pl.read_csv("cereal.csv")
-pandas_df1 = polars.df_pl.to_pandas()
+pandas_df1 = df_pl.to_pandas()
 
 def summary():
     """EDA with Polars describe function to get mean, median, and standard deviation"""
