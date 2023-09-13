@@ -12,7 +12,7 @@ def summary():
     """EDA with Polars describe function to get mean, median, and standard deviation"""
     print(df_pl.describe())
 
-def pdf_report_generator(df):
+def pdf_report_generator(df_pl):
     profile = ProfileReport(df_pl, title="Summary Report")
     profile.to_file("Summary_Report.html")
 
