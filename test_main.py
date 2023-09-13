@@ -17,7 +17,7 @@ def test_histogram():
     """
     Test defined seeplot function to checkout a scatter plot
     """
-    return histogram()
+    histogram()
 
 if __name__ == "__main__":
     test_summary()
