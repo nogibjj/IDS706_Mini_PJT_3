@@ -13,7 +13,7 @@ def summary():
     print(df_pl.describe())
 
 def pdf_report_generator(df):
-    profile = ProfileReport(df, title="Summary Report")
+    profile = ProfileReport(df_pl, title="Summary Report")
     profile.to_file("Summary_Report.html")
 
 def histogram():
