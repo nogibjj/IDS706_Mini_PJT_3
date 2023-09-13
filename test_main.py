@@ -4,6 +4,9 @@ Start Test
 
 import main 
 
+df_pl = pl.read_csv("cereal.csv")
+pandas_df1 = df_pl.to_pandas()
+
 def test_summary():
     """Test defined summary (or describe) function"""
     assert pandas_df1["calories"]["mean"] == 106.88311688311688
