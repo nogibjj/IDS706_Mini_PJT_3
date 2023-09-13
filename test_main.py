@@ -6,7 +6,6 @@ import main
 
 def test_summary():
     """Test defined summary (or describe) function"""
-    pandas_df1 = df_pl.to_pandas()
     assert pandas_df1["calories"]["mean"] == 106.88311688311688
     assert pandas_df1["protein"]["max"] == 6.0
     assert pandas_df1["fat"]["min"] == 0
