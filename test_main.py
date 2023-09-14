@@ -7,15 +7,14 @@ import main
 
 def test_summary():
     new = main.summary()
-    """Test defined summary (or describe) function"""
-    #print(new["fat"][4])
+    """Test summary (or describe) function"""
     assert new["calories"][2] == 106.88311688311688
     assert new["protein"][-1] == 6.0
     assert new["fat"][4] == 0.0
 
 def test_histogram():
     """
-    Test defined seeplot function to checkout a scatter plot
+    Test histogram function set on main file
     """
     main.histogram()
 
