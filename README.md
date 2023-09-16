@@ -28,8 +28,8 @@ Dataset used: [Cereal Dataset]([https://www.kaggle.com/datasets/crawford/1000-ca
 
 ## Output from test_main.py
 This shows top five columns of dataframe with head function, summary statistics of a 'Price' column, and a scatter plot. Summary statistics used Pandas describe() function and it includes mean, median, and standard deviation of Price feature. 
-![image](https://github.com/nogibjj/IDS706-Mini-Project2-/assets/141780408/36daec02-a433-4053-afca-9219b35d2767)
-![image](https://github.com/nogibjj/IDS706-Mini-Project2-/assets/141780408/aaf08908-49dd-4575-bc5f-5b332c17515d)
+![image](https://github.com/nogibjj/IDS706_Mini_PJT_3/assets/141780408/09d50994-5318-45bf-88cd-3f107ca01f22)
+
 
 ## Data Visualization (Storage vs. Weights of cameras) 
 It used Pandas plot function with matplotlib library and explains no relationship between cameras' storage and weights. 
