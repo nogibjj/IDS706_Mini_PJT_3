@@ -3,7 +3,6 @@ Start Test
 """
 
 import main 
-import polars as pl
 
 
 def test_summary():
@@ -15,8 +14,7 @@ def test_summary():
 
 def test_histogram():
     """Test that the histogram function saves a histogram file"""
-    data = pl.read_csv("cereal.csv")
-    main.histogram(data)
+    main.histogram()
 
 if __name__ == "__main__":
     # Run the tests 
