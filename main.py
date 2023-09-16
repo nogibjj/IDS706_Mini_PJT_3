@@ -11,7 +11,7 @@ pandas_df1 = df_pl.to_pandas()
 def summary():
     """EDA with Polars describe function to get mean, median, and standard deviation"""
     statistics = df_pl.describe()
-    print df_pl.describe()
+    print(df_pl.describe())
     return df_pl.describe() 
 
 def histogram():
