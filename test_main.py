@@ -15,8 +15,8 @@ def test_summary():
 
 def test_histogram():
     """Test that the histogram function saves a histogram file"""
-    plot = pl.read_csv("cereal.csv")
-    polars_visual(plot)
+    data = pl.read_csv("cereal.csv")
+    histogram(data)
 
 if __name__ == "__main__":
     # Run the tests 
