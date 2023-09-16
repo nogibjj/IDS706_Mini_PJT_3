@@ -5,13 +5,12 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from ydata_profiling import ProfileReport
 
-df_pl = pl.read_csv("cereal.csv")
-pandas_df1 = df_pl.to_pandas()
+my_data = pl.read_csv("cereal.csv")
 
-def summary():
+def summary(data):
     """EDA with Polars describe function to get mean, median, and standard deviation"""
-    print(df_pl.describe())
-    return df_pl.describe() 
+    sum = data.describe()
+    return sum 
 
 def histogram():
     """Displays histogram with seaborn and matplotlib"""
