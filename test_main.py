@@ -3,6 +3,7 @@ Start Test
 """
 
 import main 
+import polars as pl
 
 
 def test_summary():
