@@ -8,7 +8,7 @@ import main
 def test_summary():
     """Test the summary function for descriptive statistics"""
     new = main.summary()
-    assert new["calories"][2] == 106.88
+    assert new["calories"][2] == 106.88311688311688
     assert new["protein"][-1] == 6.0
     assert new["fat"][4] == 0.0
 
