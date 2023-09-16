@@ -8,13 +8,13 @@ from ydata_profiling import ProfileReport
 df_pl = pl.read_csv("cereal.csv")
 pandas_df1 = df_pl.to_pandas()
 
-def summary_descriptive_statistics():
+def summary():
     """EDA with Polars describe function to get mean, median, and standard deviation"""
     statistics = df_pl.describe()
-    print(statistics)
-    return statistics 
+    print df_pl.describe())
+    return df_pl.describe() 
 
-def histogram_plot_saved():
+def histogram():
     """Displays histogram with seaborn and matplotlib"""
     sns.histplot(data=df_pl, x="calories", kde=False, bins=20)
     plt.title("Calories of Cereals (n=77)")
