@@ -1,18 +1,19 @@
 # IDS 706 Data Engineering Mini Project 3
 
 ## Overview
-This repository is created using my Mini Project 1 template. It uses a couple of Pandass functions and returns descriptive statistics for a given dataframe, which is about camera models' wide range of features. 
+This repository is created using my Mini Project 1 template. It uses several Pandas as well as Polars library functions and returns descriptive statistics for a given cereal data. 
 
-Dataset used: [1000 Cameras Dataset](https://www.kaggle.com/datasets/crawford/1000-cameras-dataset)
+Dataset used: [Cereal Dataset]([https://www.kaggle.com/datasets/crawford/1000-cameras-dataset](https://www.kaggle.com/datasets/crawford/80-cereals))
 
 ## Key components in the repository are:
-- `camera.csv`
+- `cereal.csv`
 - `Makefile`
 - `requirements.txt`
 - `Dockerfile`
 - `.devcontainer`
 - `main.py`
 - `test_main.py`
+- `Summary_Report`
 - `GitHub Actions`
 
 ## Result
