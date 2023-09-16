@@ -9,9 +9,9 @@ def test_summary_descriptive_statistics():
     """Test the summary function for descriptive statistics"""
     statistics = main.summary_descriptive_statistics()
     
-    assert statistics["calories"]["mean"] == 106.88
-    assert statistics["protein"]["max"] == 6.0
-    assert statistics["fat"]["25%"] == 0.0
+    assert statistics["mean", "calories"] == 106.88
+    assert statistics["max", "protein"] == 6.0
+    assert statistics["25%", "fat"] == 0.0
 
 def test_histogram_plot_saved():
     """Test that the histogram function saves a histogram file"""
