@@ -12,7 +12,7 @@ uvicorn==0.18.3
 
 pandas
 seaborn
-matplotlib
+matplotlib==3.8.0
 polars
 ydata-profiling
 pyarrow
