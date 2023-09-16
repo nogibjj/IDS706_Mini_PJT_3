@@ -10,15 +10,16 @@ pandas_df1 = df_pl.to_pandas()
 
 def summary():
     """EDA with Polars describe function to get mean, median, and standard deviation"""
-    print(df_pl.describe())
-    return df_pl.describe()
+    statistics = df_pl.describe()
+    print(statistics)
+    return statistics 
 
 def histogram():
     """Displays histogram with seaborn and matplotlib"""
     sns.histplot(data=df_pl, x="calories", kde=False, bins=20)
     plt.title("Calories of Cereals (n=77)")
-    plt.show()
     plt.savefig("Calories_of_Cereals.png")
+    plt.show()
     pdf_report_generator(pandas_df1)
 
 def pdf_report_generator(df):
