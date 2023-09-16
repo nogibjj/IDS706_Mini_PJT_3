@@ -16,7 +16,7 @@ def test_summary():
 def test_histogram():
     """Test that the histogram function saves a histogram file"""
     data = pl.read_csv("cereal.csv")
-    histogram(data)
+    main.histogram(data)
 
 if __name__ == "__main__":
     # Run the tests 
