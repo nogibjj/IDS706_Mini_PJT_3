@@ -1,14 +1,14 @@
 install:
 	pip install --upgrade pip &&\
-		pip install -r requirements.txt
-
-format:	
-	black \Codes/*.py 
+		pip install --prefer-binary -r requirements.txt
 
 test:
-	python -m pytest \Codes/Test_*.py
+	python -m pytest -vv --cov=main test_*.py
+
+format:
+	black *.py
 
 lint:
-	pylint --disable=R,C --ignore-patterns=\Codes/Check_.*?py \Codes/*.py
+	pylint --disable=R,C --ignore-patterns=test_.*?py *.py
 
-all: install format lint test
+all: install lint format test
