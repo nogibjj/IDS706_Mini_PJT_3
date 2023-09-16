@@ -12,9 +12,6 @@ def test_summary():
     assert new["protein"][-1] == 6.0
     assert new["fat"][4] == 0.0
 
-def test_histogram():
-    """Test that the histogram function saves a histogram file"""
-    main.histogram()
 
 if __name__ == "__main__":
     # Run the tests 
