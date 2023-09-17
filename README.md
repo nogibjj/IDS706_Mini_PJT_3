@@ -1,12 +1,12 @@
 # IDS 706 Data Engineering Mini Project 3
 
 ## Overview
-This repository is created using my Mini Project 1 template. It uses several Pandas as well as Polars library functions and returns descriptive statistics for a given cereal data. 
+This repository is created using my Mini Project 1 template. It uses several Pandas as well as Polars library functions and returns descriptive statistics for a given cereal data. Also, it prints a histogram of a selected column, calories. It also generates Summary_Report file containing summary statistics.  
 
 Dataset used: [80 Cereals](https://www.kaggle.com/datasets/crawford/80-cereals)
 
 ## Key components in the repository are:
-- `cereal.csv`
+- `cereal.csv` 
 - `Makefile`
 - `requirements.txt`
 - `Dockerfile`
