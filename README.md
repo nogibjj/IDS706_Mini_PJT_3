@@ -1,3 +1,5 @@
+[![Python CI](https://github.com/nogibjj/IDS706_Mini_PJT_3/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/IDS706_Mini_PJT_3/actions/workflows/cicd.yml)
+
 # IDS 706 Data Engineering Mini Project 3
 
 ## Overview
