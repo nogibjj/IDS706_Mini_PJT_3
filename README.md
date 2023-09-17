@@ -16,22 +16,19 @@ Dataset used: [Cereal Dataset]([https://www.kaggle.com/datasets/crawford/1000-ca
 - `Summary_Report`
 - `GitHub Actions`
 
-## Result
-- **make lint** : Check poorly structured code and stylistic errors. 
-![image](https://github.com/nogibjj/IDS706-Mini-Project2-/assets/141780408/878442a5-27a3-4bb2-8076-d255f9b812fc)
+## Result from test_main.py
+- **make lint, test, format
+  `make lint` : Check poorly structured code and stylistic errors.
+  `make test` : It passed tests on function I defined in main.py
+  `make format` : Apply formatting checks 
+![image](https://github.com/nogibjj/IDS706_Mini_PJT_3/assets/141780408/6b68a1a6-9e17-4fb3-8a44-5926b6f2f43c)
 
-- **make test** : It passed tests on all the functions I defined.
-![image](https://github.com/nogibjj/IDS706-Mini-Project2-/assets/141780408/06dbcd6f-41dc-4ffc-a908-35766c273169)
-
-- **make format**: Apply formatting checks 
-![image](https://github.com/nogibjj/IDS706-Mini-Project2-/assets/141780408/42462fe3-ad70-4d12-a4ba-736a9c2232a4)
-
-## Output from test_main.py
-This shows top five columns of dataframe with head function, summary statistics of a 'Price' column, and a scatter plot. Summary statistics used Pandas describe() function and it includes mean, median, and standard deviation of Price feature. 
-![image](https://github.com/nogibjj/IDS706_Mini_PJT_3/assets/141780408/09d50994-5318-45bf-88cd-3f107ca01f22)
+## Output 
+This shows summary statistics of the given cereal dataframe. The below table displays continuous variables' statistics like mean, max, mean, median, average.   
+![image](https://github.com/nogibjj/IDS706_Mini_PJT_3/assets/141780408/1ba51b75-8e19-401f-942a-d5a1d2329b15)
 
 
 ## Data Visualization (Storage vs. Weights of cameras) 
-It used Pandas plot function with matplotlib library and explains no relationship between cameras' storage and weights. 
+It used Pandas plot histogram function with matplotlib library and represents calories distribution. 
+![image](https://github.com/nogibjj/IDS706_Mini_PJT_3/assets/141780408/d9fd47d9-2551-4545-81fc-c1a6df478f1a)
 
-![image](https://github.com/nogibjj/IDS706-Mini-Project2-/assets/141780408/44cff96e-5eef-469f-8fa9-e6d4da628446)
