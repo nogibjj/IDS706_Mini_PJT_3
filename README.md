@@ -18,9 +18,9 @@ Dataset used: [80 Cereals](https://www.kaggle.com/datasets/crawford/80-cereals)
 
 ## Result from test_main.py
 - **make lint, test, format**
-  -- `make lint` : Check poorly structured code and stylistic errors.
-  -- `make test` : It passed tests on function I defined in main.py
-  -- `make format` : Apply formatting checks 
+  - `make lint` : Check poorly structured code and stylistic errors.
+  - `make test` : It passed tests on function I defined in main.py
+  - `make format` : Apply formatting checks 
 ![image](https://github.com/nogibjj/IDS706_Mini_PJT_3/assets/141780408/d347a525-c746-4933-80d9-ca486d916ab2)
 
 ## Output 
