@@ -17,7 +17,7 @@ Dataset used: [80 Cereals](https://www.kaggle.com/datasets/crawford/80-cereals)
 - `GitHub Actions`
 
 ## Result from test_main.py
-- **make lint, test, format
+- **make lint, test, format**
   `make lint` : Check poorly structured code and stylistic errors.
   `make test` : It passed tests on function I defined in main.py
   `make format` : Apply formatting checks 
