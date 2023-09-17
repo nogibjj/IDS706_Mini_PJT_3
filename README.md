@@ -21,7 +21,7 @@ Dataset used: [Cereal Dataset]([https://www.kaggle.com/datasets/crawford/1000-ca
   `make lint` : Check poorly structured code and stylistic errors.
   `make test` : It passed tests on function I defined in main.py
   `make format` : Apply formatting checks 
-![image](https://github.com/nogibjj/IDS706_Mini_PJT_3/assets/141780408/6b68a1a6-9e17-4fb3-8a44-5926b6f2f43c)
+![image](https://github.com/nogibjj/IDS706_Mini_PJT_3/assets/141780408/d347a525-c746-4933-80d9-ca486d916ab2)
 
 ## Output 
 This shows summary statistics of the given cereal dataframe. The below table displays continuous variables' statistics like mean, max, mean, median, average.   
