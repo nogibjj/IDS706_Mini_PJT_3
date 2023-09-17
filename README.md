@@ -3,7 +3,7 @@
 ## Overview
 This repository is created using my Mini Project 1 template. It uses several Pandas as well as Polars library functions and returns descriptive statistics for a given cereal data. 
 
-Dataset used: [Cereal Dataset]([https://www.kaggle.com/datasets/crawford/1000-cameras-dataset](https://www.kaggle.com/datasets/crawford/80-cereals))
+Dataset used: [80 Cereals](https://www.kaggle.com/datasets/crawford/80-cereals)
 
 ## Key components in the repository are:
 - `cereal.csv`
