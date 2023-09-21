@@ -16,9 +16,6 @@ container-lint:
 
 refactor: format lint
 
-make run:
-	python main.py
-
 deploy:
 	#deploy goes here
 		
